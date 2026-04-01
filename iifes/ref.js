@@ -8,7 +8,7 @@
  
    newLink = document.createElement('link');
    newLink.async = 1;
-   newLink.href = 'https://rawgit.com/Maurogv/javascript/master/css/ref.css';
+   newLink.href = 'https://cdn.jsdelivr.net/gh/Maurogv/javascript@master/css/ref.css';
    newLink.type = 'text/css';
    newLink.rel = 'stylesheet';
    headTag = document.getElementsByTagName('head')[0];
@@ -16,7 +16,7 @@
 
    newScript = document.createElement('script');
    newScript.async = 1;
-   newScript.src = 'https://rawgit.com/Maurogv/javascript/master/libs/ref.js';
+   newScript.src = 'https://cdn.jsdelivr.net/gh/Maurogv/javascript@master/iifes/ref.js';
    scriptTag = document.getElementsByTagName('script')[0];
    scriptTag.parentNode.insertBefore(newScript, scriptTag);
     	
