@@ -16,7 +16,7 @@
 
    newScript = document.createElement('script');
    newScript.async = 1;
-   newScript.src = 'https://cdn.jsdelivr.net/gh/Maurogv/javascript@master/iifes/ref.js';
+   newScript.src = 'https://cdn.jsdelivr.net/gh/Maurogv/javascript@master/libs/ref.js';
    scriptTag = document.getElementsByTagName('script')[0];
    scriptTag.parentNode.insertBefore(newScript, scriptTag);
     	
